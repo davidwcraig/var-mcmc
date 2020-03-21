@@ -1,0 +1,6 @@
+Here is the timing for the original slicer in pyslicer.py:
+#In
+%%timeit
+res, likes = slicer(log_posterior, 3, [24.0, 0.5, 2.0], [xdata, ydata], N=5000);
+#Out
+1.86 s ± 10.8 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)

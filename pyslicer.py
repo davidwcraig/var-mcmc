@@ -79,3 +79,4 @@ def slicer(g, dim, x0, xargs, N=1000, w=0.5, m=10):
                 break   # catch case where we reach N 
                         # in the middle of set of dimensions
     return xs, likelies 
+
